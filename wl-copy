@@ -2,7 +2,7 @@ debug1: OpenSSH_10.2p1 Ubuntu-2ubuntu3.2, OpenSSL 3.5.5 27 Jan 2026
 debug1: Reading configuration data /etc/ssh/ssh_config
 debug1: Reading configuration data /etc/ssh/ssh_config.d/20-systemd-ssh-proxy.conf
 debug1: /etc/ssh/ssh_config line 21: Applying options for *
-debug1: Connecting to github.com [140.82.121.3] port 22.
+debug1: Connecting to github.com [140.82.121.4] port 22.
 debug1: Connection established.
 debug1: no pubkey loaded from /home/chinadizi/.ssh/id_rsa
 debug1: identity file /home/chinadizi/.ssh/id_rsa type -1

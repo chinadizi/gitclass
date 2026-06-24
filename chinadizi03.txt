@@ -1,0 +1,553 @@
+    1  su -
+    2  sudo su
+    3  sudo reboot
+    4  systemd-inhibit
+    5  history
+    6  ps aux
+    7  ps --help
+    8  reboot
+    9  history
+   10  history > history.txt
+   11  ls
+   12  vim history.txt 
+   13  nano history.txt 
+   14  whoami
+   15  ls -un
+   16  ls
+   17  unme
+   18  uname
+   19  cat /etc/os-release 
+   20  cat /etc/os-release > os\details.txt
+   21  ls
+   22  mv osdetails.txt os\ details.txt
+   23  ls
+   24  cat os\ details.txt 
+   25  cat /etc/passwd
+   26  cat /etc/group
+   27  adduser ruby
+   28  sudo adduser ruby
+   29  ls -un
+   30  ls ~
+   31  ls /
+   32  ls /home
+   33  [200~sudo ubuntu-drivers devices
+   34  ~sudo ubuntu-drivers devices
+   35  sudo ubuntu-drivers devices
+   36  sudo apt update
+   37  apt list --upgradable 
+   38  clear
+   39  touch setup.sh
+   40  ls
+   41  ls -a
+   42  ls -l
+   43  ls /bin/bash
+   44  ls /bin
+   45  ls /bin | grep bash
+   46  ./setup.sh
+   47  setup.sh
+   48  ls
+   49  ls -l setup.sh 
+   50  chmod +x setup.sh 
+   51  l s-l setup.sh 
+   52  ls -l setup.sh 
+   53  chmod g-x setup.sh 
+   54  ls -l setup.sh 
+   55  chmod o-x setup.sh 
+   56  ls -l setup.sh 
+   57  ./setup.sh 
+   58  bash setup.sh 
+   59  ./setup.sh 
+   60  ls 
+   61  ./setup.sh myfirstscript chinadizi
+   62  ls
+   63  ls myfirstscript/
+   64  ./setup.sh mine
+   65  ls
+   66  mkdir claudearena; touch claudearena/aiscript.sh; chmod u+x claudearena/aiscript.sh; nano claudearena/aiscript.sh
+   67  ls -l claudearena/
+   68  cd claudearena/
+   69  ./aiscript.sh 
+   70  ./aiscript.sh one
+   71  ./aiscript.sh one ruBy
+   72  ls
+   73  ls one
+   74  ./aiscript.sh one ruby
+   75  ./aiscript.sh one chinadizi
+   76  vim script1.sh
+   77  sudo apt install vim; vim script1.sh
+   78  ls
+   79  ./script1.sh
+   80  chmod u+x script1.sh 
+   81  ./script1.sh 
+   82  vim script1.sh 
+   83  bash script1.sh 
+   84  cat script1.sh 
+   85  bash script1.sh 
+   86  vim script1.sh 
+   87  bash script1.sh 
+   88  vim script1.sh 
+   89  bash script1.sh one two ruby nana
+   90  vim script1.sh 
+   91  bash script1.sh one two ruby nana
+   92  vim script1.sh 
+   93  bash script1.sh one two ruby nana
+   94  vim script1.sh 
+   95  bash script1.sh one two ruby nana
+   96  vim script1.sh 
+   97  bash script1.sh ./claudearena one three
+   98  bash script1.sh claudearena one three
+   99  bash script1.sh claudeare one three
+  100  vim script1.sh 
+  101  bash script1.sh claudeare one three
+  102  vim script1.sh 
+  103  bash script1.sh claudeare one three
+  104  ls
+  105  bash script1.sh clwet oeene tehree
+  106  bash script1.sh one clwet oeene tehree
+  107  vim script1.sh 
+  108  bash script1.sh one clwet oeene tehree
+  109  vim script1.sh 
+  110  bash script1.sh one e
+  111  3
+  112  vim script1.sh 
+  113  bash script1.sh one e
+  114  vim script1.sh 
+  115  bash script1.sh one e
+  116  bash script1.sh
+  117  vim script1.sh 
+  118  bash script1.sh
+  119  vim script1.sh 
+  120  bash script1.sh
+  121  2
+  122  vim script1.sh 
+  123  bash script1.sh
+  124  vim script1.sh 
+  125  bash script1.sh
+  126  printenv
+  127  printenv | less
+  128  printenv user
+  129  printenv USER
+  130  printenv | grep USER
+  131  echo $USER
+  132  export DB_USERNAME=okporaycords; export DB_PASSWD=sweed; export DB_NAME=harry; printenv | grep DB 
+  133  echo $DB_NAME
+  134  export DB_NAME=newtomboy
+  135  printenv DB_NAME
+  136  unset DB_NAME; Unset DB_USERNAME; unset DB_PASSWD
+  137  printenv | grep DB
+  138  exit
+  139  printenv | grep DB
+  140  exit
+  141  history
+  142  which ls
+  143  sudo apt search ls
+  144  nc --help
+  145  nc -zv localhost 80 2>/dev/null || echo "Port 80 inaccessible"
+  146  nc -h
+  147  group add -h
+  148  groupadd -h
+  149  chroot -h
+  150  man chroot
+  151  addgroup -h
+  152  man addgroup
+  153  man addgroup>addgrouptutorial.txt
+  154  cat addgrouptutorial.txt | less
+  155  nano addgrouptutorial.txt 
+  156  useradd -h
+  157  sudo groupadd developers
+  158  sudo useradd -m -G developers -s /bin/bash devops1
+  159  sudo passwd devops1 devops123
+  160  sudo passwd devops1
+  161  users
+  162  sudo useradd -m -G developers -s /bin/bash developer2
+  163  sudo passwd developer2 
+  164  id devops1 
+  165  id developer2 
+  166  groups devops1 
+  167  groups developer2 
+  168  ls -d /home/developer2/
+  169  ls -ld /home/developer2/
+  170  ls -ld /home/devops1/
+  171  grep -h
+  172  grep --help 
+  173  cat /etc/passwd
+  174  cat /etc/passwd | grep -E "devops1|developer2"
+  175  cat /etc/passwd | grep -E "(devops1|developer2)"
+  176  su -ruby
+  177  su - developer2 
+  178  su - devops1 
+  179  mkdir - p /opt/team-project; chown :developers /opt/team-project
+  180  sudo mkdir -p /opt/team-project
+  181  ls
+  182  ls /opt
+  183  chown :developers /opt/team-project/
+  184  sudo chown :developers /opt/team-project/
+  185  ls -ld /opt/team-project/
+  186  chmod 775 /opt/team-project/
+  187  sudo chmod 775 /opt/team-project/
+  188  ls -ld /opt/team-project/
+  189  su --help
+  190  su - devops1 - c touch /opt/team-project/test.txt
+  191  su - devops1 -c touch /opt/team-project/test.txt
+  192  touch -h
+  193  which touch
+  194  su - devops1 -c "touch /opt/team-project/test.txt"
+  195  ls -ld /opt/team-project/
+  196  ls -l /opt/team-project/
+  197  userdel -h
+  198  userdel -r devops1 
+  199  sudo userdel -r devops1,developers
+  200  sudo userdel -r devops1
+  201  sudo userdel -r developer2 
+  202  echo $USER
+  203  groups
+  204  users
+  205  echo users
+  206  users
+  207  cat /etc/passwd
+  208  cat /etc/passwd | grep dev* || echo "users not found"
+  209  cat /etc/passwd | grep devops1 || echo "users not found"
+  210  sudo groupdel developers 
+  211  sudo -r /opt/team-project/
+  212  sudo rm -r /opt/team-project/
+  213  ls /opt
+  214  ls -a
+  215  ls -l
+  216  ls
+  217  ls -h
+  218  ls --help
+  219  ls /var/log/auth.log
+  220  cat /var/log/auth.log
+  221  sudo head /var/log/auth.log
+  222  sudo head -20 /var/log/auth.log
+  223  sudo tail /var/log/auth.log
+  224  tail /var/log/auth.log
+  225  tail -3 /var/log/auth.log
+  226  tail -f /var/log/auth.log
+  227  tail -h
+  228  tail -vf /var/log/auth.log
+  229  tail -vf /var/log/auth.log*
+  230  ls /var/log/
+  231  ls -l /var/log/
+  232  grep--help
+  233  grep --help
+  234  sudo grep -i "fail" /var/log/auth.log | tail -10
+  235  sudo grep -i fail /var/log/auth.log
+  236  ls
+  237  ls setup.sh 
+  238  cat setup.sh 
+  239  grep touch setup.sh 
+  240  grep -i touch setup.sh
+  241  grep "touch" setup.sh 
+  242  grep -i "Touch" setup.sh 
+  243  grep Touch setup.sh 
+  244  grep -i ToucH setup.sh 
+  245  tabnew
+  246  grep -i fail /var/log/auth.log
+  247  sudo grep - i fail /var/log/auth.log
+  248  sudo grep -i fail /var/log/auth.log | tail -f
+  249  exit
+  250  ps -p 1
+  251  which systemd
+  252  cat > tmp/app.log << EOF
+  253  2025 -01 -15 10:30:15 ERROR Database connection failed
+  254  4 2025 -01 -15 10:30:16 INFO User login successful
+  255  5 2025 -01 -15 10:30:17 WARN Slow query detected
+  256  6 2025 -01 -15 10:30:18 ERROR Payment gateway timeout
+  257  7 2025 -01 -15 10:30:19 INFO Cache hit ratio : 85%
+  258  eof
+  259  EOF
+  260  cat > /tmp/app.log << EOF
+  261  2025 -01 -15 10:30:15 ERROR Database connection failed
+  262  4 2025 -01 -15 10:30:16 INFO User login successful
+  263  5 2025 -01 -15 10:30:17 WARN Slow query detected
+  264  6 2025 -01 -15 10:30:18 ERROR Payment gateway timeout
+  265  7 2025 -01 -15 10:30:19 INFO Cache hit ratio : 85%
+  266  EOF
+  267  cat /tmp/app.log 
+  268  grep -i error /tmp/app.log 
+  269  grep -vi info /tmp/app.log 
+  270  grep -vi info /tmp/app.log | wc -l
+  271  rm /tmp/app.log 
+  272  ls /tmp
+  273  ls -l /tmp
+  274  cat > app.conf <<EOF
+  275  [200~# Production Configuration
+  276  4 APP_ENV = production
+  277  5 APP_PORT =8000
+  278  6 DB_HOST = localhost
+  279  7 DB_PORT =5432
+  280  8 DB_NAME = app_production
+  281  9 DB_USER = app_user
+  282  10 DB_PASS = secret123
+  283  11 DEBUG = false
+  284  12 LOG_LEVEL = info~
+  285  EOF
+  286  ls app.conf 
+  287  less app.conf 
+  288  vim app.conf 
+  289  df -h
+  290  df --help
+  291  df -h /home
+  292  df -h /home /
+  293  df -h /home / /usr
+  294  df -i
+  295  free -help
+  296  free -h
+  297  cat /proc/meminfo | grep -E "(MemTotal|MemFree|MemAvailable)"
+  298  grep -E --help
+  299  cat app.conf 
+  300  grep - E "(DEBUG|DB_PASS)"
+  301  grep - E app.conf "(DEBUG|DB_PASS)"
+  302  grep -E app.conf "(DEBUG|DB_PASS)"
+  303  grep -E "(DEBUG|DB_PASS)" app.conf 
+  304  grep "DEBUG" "DB_PASS" app.conf 
+  305  grep (DEBUG|DB_PASS) app.conf 
+  306  grep "(DEBUG|DB_PASS) app.
+  307  grep "(DEBUG|DB_PASS) app.conf
+  308  q
+  309  grep "(DEBUG|DB_PASS)" app.conf
+  310  q
+  311  grep -E "(DEBUG|DB_PASS)" app.conf 
+  312  swapon -s
+  313  swapon --show 
+  314  free -h
+  315  cat /proc/swaps 
+  316  top
+  317  htop
+  318  top
+  319  top > topfile.txt
+  320  cat topfile.txt 
+  321  top
+  322  sudo apt install htop -y
+  323  htop
+  324  sudo apt update
+  325  sudo apt install htop
+  326  du --help
+  327  du -sh
+  328  du -sh ~/*
+  329  sudo apt-get update
+  330  sudo snap install htop
+  331  htop
+  332  du -h /var | sort -rh | head -10
+  333  du -h /var | sort -rh | head -10 2>/dev/null
+  334  du -h /var 2>/dev/null| sort -rh | head -10
+  335  sudo du -h /var | sort -rh | head -10
+  336  find . -name *.txt | exec cat {} \;
+  337  find . -name *.txt -exec {} \;
+  338  find -name *.txt -exec {} \;
+  339  find -name "*.txt" -exec {} \;
+  340  find . -name *.txt -exec cat {} \;
+  341  find -name *.txt
+  342  find -name "*.txt"
+  343  find . -name "*.txt" -exec cat {} \;
+  344  clear
+  345  sudo find /var/log -type f -size +100M -exec ls -lh {} \;
+  346  sudo find /var/log -type f -size +1M -exec ls -lh {} \;
+  347  sudo find /var/log -type f -size +1M -exec du -lh {} \;
+  348  sudo find /var/log -type f -size +1M -exec du -lh {} \; | sort -rh
+  349  uptime
+  350  vmstat 1 5
+  351  vmstat -h
+  352  iostat -h
+  353  iostat --help
+  354  iostat -x 1 3
+  355  clear
+  356  sudo apt install nginx -y
+  357  sudo apt install nginx -y --fix-missing 
+  358  nginx
+  359  sudo snap install nginx
+  360  snap --help
+  361  sudo apt get update
+  362  sudo apt update
+  363  ping 8.8.8.8
+  364  sudo snap install nginx
+  365  sudo snap install nginx-service
+  366  dpkg
+  367  nginx
+  368  systemctl status
+  369  reboot
+  370  sudo reboot
+  371  systemctl reboot 
+  372  systemctl reboot -i
+  373  sed
+  374  ls /etc/environment
+  375  ls -a /etc/environment
+  376  ls -a /etc/environment/
+  377  ls /etc
+  378  history | sed -n '5,10p'
+  379  history | head -10
+  380  history | sed -n '5,10p'
+  381  history | sed '5d'
+  382  history | sed -n '5d'
+  383  history | sed -n '4d'
+  384  history | head
+  385  history | sed -in '5d'
+  386  history | sed '10,15p'
+  387  history | sed -n '10,15p'
+  388  history | sed 's/history/exit/g
+hi
+g
+  389  history | sed 's/history/exit/g'
+  390  history | sed 's/history/exit/g' && history | sed '1,10p'
+  391  history | sed 's/history/exit/g' && history | sed -n '1,10p'
+  392  locate --help
+  393  locate
+  394  sudo apt install locate
+  395  locate
+  396  locate --help
+  397  sudo apt install plocate
+  398  plocate
+  399  netstat /ss
+  400  netstat /ss | grep -C
+  401  top
+  402  htop
+  403  btop
+  404  glances
+  405  mkdir git_class
+  406  ls
+  407  ls git_class/
+  408  cd git_class/
+  409  vim iron.js
+  410  e
+  411  vim iron.js 
+  412  ls iron.js 
+  413  cat iron.js 
+  414  vim iron.js 
+  415  less iron.js 
+  416  vim --version |grep clipboard
+  417  cp iron.js iron-v01.js
+  418  ls
+  419  sudo apt install git
+  420  git --version 
+  421  git init
+  422  ls -a .
+  423  git status 
+  424  git add iron.js 
+  425  git status 
+  426  git rm --cached iron.js 
+  427  git status 
+  428  touch chinadizi{01..10}.txt
+  429  ls
+  430  ls -la
+  431  touch ruby{a..j}.shuga
+  432  ls -la | grep shuga
+  433  touch shuga{(01)..(09)}.luv
+  434  touch shuga{'(01)'..'(09)'}.luv
+  435  ls -la | grep shuga
+  436  rm shuga\{\(01\)..\(09\)\}.luv 
+  437  touch shuga{-01..-09}.luv
+  438  ls -la | grep shuga
+  439  touch{sweetie,eddy,kitty,morgie,ify,swift,sms,boko,tarrie,wole}.friend
+  440  touch {sweetie,eddy,kitty,morgie,ify,swift,sms,boko,tarrie,wole}.friend
+  441  ls -la | grep friend
+  442  touch {2023,2024,2025,2026}-{shuga}.year
+  443  ls -l | grep year
+  444  rm *.year
+  445  ls -l | grep year
+  446  touch {2024,2025,2026} - {shuga}.year
+  447  ls -l |grep year
+  448  touch {2024,2025,2026} - {shuga,sweet,sour}.year
+  449  ls -l |grep year
+  450  touch {2024,2025,2026}-{shuga,sweet,sour}.year
+  451  ls -l |grep year
+  452  rm *.year
+  453  ls -l |grep year
+  454  touch {2022,2023,2024}-{yes,no,why}.why
+  455  ls -l |grep why
+  456  rm *why
+  457  ls | grep why
+  458  touch {2024,2025,2026}-{one,two}.max
+  459  ls | grep max
+  460  touch {marc,april,may}in{2025}.file
+  461  ls | grep file
+  462  rm *file
+  463  ls | grep file
+  464  grep file $(ls)
+  465  $(ls)
+  466  ls -lh .
+  467  git status
+  468  git add .
+  469  git status 
+  470  git commit -m "First commit experimenting with creating multiple files using touch"
+  471  git config --list
+  472  git config --global user.email "nedudevops@gmail.com" && git ocnfig --global user.name "Nedu DevOps"
+  473  git config --global user.email "nedudevops@gmail.com" && git config --global user.name "Nedu DevOps"
+  474  git commit -m "First commit experimenting with creating multiple files using touch"
+  475  git status 
+  476  git log
+  477  git log --oneline 
+  478  git remote add origin https://github.com/chinadizi/gitclass.git
+  479  git branch -M main
+  480  git push -u origin main
+  481  git remote add origin https://github.com/chinadizi/gitclass.git
+  482  git branch -M main
+  483  git push -u origin main
+  484  [200~D1zH0b@z@~
+  485  D1zH0b@z@
+  486  git push -u origin main
+  487  ssh-keygen -t ed25519 -C "nkwochachinedu456@gmail.com"
+  488  git push -u origin main
+  489  history | grep git
+  490  git remote add origin git@github.com:chinadizi/gitclass.git
+  491  git branch -M main
+  492  git push -u origin main
+  493  git remote remove origin 
+  494  git remote add origin git@github.com:chinadizi/gitclass.git
+  495  git branch -M main
+  496  git push -u origin main
+  497  git remote -v
+  498  git status
+  499  ls -la
+  500  clear
+  501  git branch -M main
+  502  git remote add origin git@github.com:chinadizi/gitclass.git
+  503  git push -u origin main
+  504  git remote remove origin 
+  505  git remote -v
+  506  git branch -M main
+  507  git remote add origin git@github.com:chinadizi/gitclass.git
+  508  git push -u origin main
+  509  ls -la | grep ssh
+  510  cat ssh_key.pub 
+  511  wl-copy
+  512  sudo apt install wl-clipboard 
+  513  xclip
+  514  sudo apt install xclip 
+  515  cat ssh_key.pub | xclip -selection clipboard
+  516  xclip --help
+  517  xclip
+  518  cat ssh_key.pub | wl-copy 
+  519  wl --help
+  520  wl-copy --help
+  521  git remote -v
+  522  git branch -M main
+  523  git push -u origin main
+  524  git remote set-url origin git@github.com:chinadizi/gitclass.git
+  525  git remote -v
+  526  ssh -T git@github.com
+  527  ssh -vT git@github.com
+  528  ssh -vT git@github.com 2>wl-copy
+  529  ls -la
+  530  ssh -vT git@github.com 2>chinadizi01.txt | cat chinadizi01.txt | wl-copy 
+  531  cat chinadizi01.txt 
+  532  history | grep wl-copy
+  533  ssh -vT git@github.com 2>chinadizi01.txt && cat chinadizi01.txt | wl-copy 
+  534  cat chinadizi01.txt | wl-copy && echo "Text copied"
+  535  vim new file.txt
+  536  rm *ssh
+  537  ls -l |grep ssh
+  538  rm *ssh*
+  539  ls -l |grep ssh
+  540  ssh-keygen -t ed25519 -C "nkwochinedu456@gmail.com"
+  541  ls -l | grep ssh
+  542  cat ~/.ssh/id_ed25519.pub | wl-copy && echo "Text copied"
+  543  ssh -T git@github.com
+  544  git push -u origin main
+  545  wl-copy --help
+  546  cat chinadizi01.txt 
+  547  grep -c chinadizi01.txt 
+  548  git pull origin main
+  549  cat chinadizi02.txt 
+  550  history > chinadizi03.txt && tail-f chinadizi03.txt 
+  551  history > chinadizi03.txt && tail -f chinadizi03.txt 
