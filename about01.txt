@@ -1,0 +1,2 @@
+This file was created from the first backup of the git_class local repo
+This backup01 was created by using tar to compress the original repo and extract to a specific folder
