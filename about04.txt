@@ -3,3 +3,7 @@ It was created after backing up git_class local repo using the git -clone comman
 git clone . ~/git_class_backup_04
 git clone . <destination path of backup>
 Thanks
+
+With this method, you have to reassign your origin as it sets the origin to your local folder and not github
+So run: git remote set-url origin <yourgithubrepo>
+
