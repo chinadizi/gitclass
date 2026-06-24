@@ -1,0 +1,5 @@
+This file was created in the students branch of git_class_backup_04
+It was created after backing up git_class local repo using the git -clone command
+git clone . ~/git_class_backup_04
+git clone . <destination path of backup>
+Thanks
