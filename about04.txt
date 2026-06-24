@@ -1,0 +1,17 @@
+This file was created in the students branch of git_class_backup_04
+It was created after backing up git_class local repo using the git -clone command
+git clone . ~/git_class_backup_04
+git clone . <destination path of backup>
+Thanks
+
+With this method, you have to reassign your origin as it sets the origin to your local folder and not github
+So run: git remote set-url origin <yourgithubrepo>
+
+also the reflog from this backup only starts from the point you cloned the original git repo as opposed to method one that has the full reflog from the original repo
+
+When you run git clone, Git does not copy the original .git folder directly. Instead, it:
+
+Creates a brand new .git folder.
+Connects to the source repo.
+Downloads all the Commits, Branches, and Tags.
+It does NOT download the Reflog.

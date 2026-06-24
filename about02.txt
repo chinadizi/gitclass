@@ -1,0 +1,7 @@
+This file was created in the students branch of the git_class_backup_02 folder
+git_class_backup_02 was created by backing up the original git_class local repo using the clone --mirror command
+git clone --mirror <path-to-.git-file-from-earlier-clone> <path-to-the-new-backup-repo>
+In this case the reflog only starts from the point where the cloned git file was restored to the backup repo directory
+Also, the origin is set as the local folder, so you have to reassign the origin to the github repo using git remote set-url origin <origin-url>
+Thanks
+END
