@@ -1,0 +1,17 @@
+THis file was created in the students branch of the git_class_backup_03 folder
+git_class_backup_03 directory was created by copying the original git_class local repo to a new directory using cp -a
+Basically cp -a copies everything including hidden files, sub directories and even preserves permissions and all. It's just like using tar
+cp -a <source-folder> <dest_folder/>
+add a / add the end of the destination path so the files from the source path copy directory to the destination otherwise it copies the source directory into the destination directory
+For example: without the forward slash at the end, you get the source folder as a sub directory in the destination folder
+this backup also preserves the reflog of the original repo
+in all, backing up via tar and cp -a is the best if you want to preserve the reflog and origin of the original repo
+cat > about03.txt <<EOF
+THis file was created in the students branch of the git_class_backup_03 folder
+git_class_backup_03 directory was created by copying the original git_class local repo to a new directory using cp -a
+Basically cp -a copies everything including hidden files, sub directories and even preserves permissions and all. It's just like using tar
+cp -a <source-folder> <dest_folder/>
+add a / add the end of the destination path so the files from the source path copy directory to the destination otherwise it copies the source directory into the destination directory
+For example: without the forward slash at the end, you get the source folder as a sub directory in the destination folder
+this backup also preserves the reflog of the original repo
+in all, backing up via tar and cp -a is the best if you want to preserve the reflog and origin of the original repo
